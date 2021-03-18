@@ -1,0 +1,63 @@
+[
+    {
+        "name": "SanDisk Ultra 128GB Memory Card up to 80MB/s",
+        "price": "45.89",
+        "description": "Ultra-Fast card to take better pictures and Full HD videos",
+        "ratings": 4.5,
+        "images": [{
+            "publice_id": "products/617NtexaW2L._SL1500_",
+            "url": "https://images-na.ssl-images-amazon.com/images/I/617NtexaW2L._SL1500_.jpg"
+        }],
+         "category": "Electronics",
+         "seller": "Ebay",
+         "stock": 50,
+         "numOfReviews" : 32,
+         "reviews": []
+
+    },
+    {
+        "name": "CAN USB FD Adapter",
+        "price": "315.00",
+        "description": "Monitor a CAN network, write a CAN program and communicate with industrial, medical, automotive or other based device",
+        "ratings": 1.65,
+        "images": [{
+            "public_id": "product/61oXGZ60GfL",
+            "url":"https://m.media-amazon.com/images/I/61oXGZ60GfL.jpg"
+        }],
+        "category":"Electronics",
+        "seller": "Amazon",
+        "stock": 0,
+        "numOfReviews": 2,
+        "reviews": []
+    },
+    {
+        "name": "CHARMOUNT Full Motion TV Wall Mount Swivel",
+        "price": "26.99",
+        "description": "CHARMOUNT TV MOUNT UNIVERSAL DESIGN - Has your TV been received? Tilted TV wall mount is for 26 -55 TVs weight up to 88lbs - 40kg.",
+        "ratings": 3.5,
+        "images": [{
+            "public_id": "product/f8dbe69c-aa71-46d6-8b03-8b5922a2c60f.__CR0,0,970,600_PT0_SX970_V1___",
+            "url":"https://m.media-amazon.com/images/S/aplus-media/sc/f8dbe69c-aa71-46d6-8b03-8b5922a2c60f.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+        }],
+        "category":"Electronics",
+        "seller":"Amazon",
+        "stock": 1,
+        "numOfReviews": 12,
+        "reviews":[]
+    },
+    {
+        "name": "Bose QuietComfort 35 II Wireless Bluetooth Headphones",
+        "price": "299.00",
+        "description": "Concentration goes to the next level",
+        "ratings": 4.5,
+        "images": [{
+            "public_id": "products/71KnfvjYaFL._AC_SL1500_",
+            "url":"https://images-na.ssl-images-amazon.com/images/I/71KnfvjYaFL._AC_SL1500_.jpg"
+        }],
+        "category":"Headphones",
+        "seller":"Amazon",
+        "stock": 11,
+        "numOfReviews": 112,
+        "reviews":[]
+    }
+]
