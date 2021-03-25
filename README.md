@@ -1,4 +1,4 @@
 # shopit
 Online shop project
 
-Fisrt major project for my exercise.
+Fisrt major project for my job.
