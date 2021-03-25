@@ -35,7 +35,7 @@ const userSchema = new mongoose.Schema({
     },
     role: {
         type: String,
-        default: 'user'
+        default: 'User',
     },
     createAt: {
         type: Date,
@@ -65,4 +65,4 @@ userSchema.methods.getJwtToken = function () {
     })
 }
 
-module.exports = mongoose.model('model', userSchema);
+module.exports = mongoose.model( 'User', userSchema );

@@ -59,5 +59,21 @@
         "stock": 11,
         "numOfReviews": 112,
         "reviews":[]
+    },
+    {
+        "name": "MacBook pro",
+        "price": "650,00",
+        "description": "Ultra-Fast laptop to take better pictures and Full HD videos",
+        "ratings": 4.5,
+        "images": [{
+            "public_id": "products/71KnfvjYaFL._AC_SL1500_",
+            "url":"https://images-na.ssl-images-amazon.com/images/I/71KnfvjYaFL._AC_SL1500_.jpg"
+        }],
+         "category": "Electronics",
+         "seller": "Ebay",
+         "stock": 50,
+         "numOfReviews" : 32,
+         "reviews": []
+
     }
 ]
