@@ -17,6 +17,7 @@ exports.registerUser = catchAsyncErrors( async (req, res, next) => {
             public_id: '194/194938',
             url: 'https://image.flaticon.co8reqm/icons/png/512/194/194938.png'
         }
+        
     })
 
     sendToken(user, 200, res);
