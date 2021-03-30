@@ -20,6 +20,8 @@ exports.newProduct = catchAsyncErrors (async (req, res, next) => {
     })
 })
 //Get all products => /api/v1/products?keyword=sandisk
+
+
 exports.getProducts = catchAsyncErrors (async (req,res,next) => {
 
     const resPerPage = 4;
