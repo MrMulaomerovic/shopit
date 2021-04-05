@@ -4,7 +4,7 @@ const ErrorHandler = require("../utils/errorHandler");
 const catchAsyncErrors = require("./catchAsyncErrors");
 
 //Checks if user is authenticated or not
-const isAuthenticatedUser = catchAsyncErrors( async (req, res, next) => {
+exports.isAuthenticatedUser = catchAsyncErrors( async (req, res, next) => {
 
     const { token } = req.cookies;
 
@@ -20,10 +20,9 @@ const isAuthenticatedUser = catchAsyncErrors( async (req, res, next) => {
 });
 
 //Handling user roles
-const authorizeRoles = (role) => {
+exports.authorizeRoles = (roles) => {
     return (req, res, next) => {
-
-        if(req.user.role !== role){
+        if(!roles.includes(req.user.role)){
             return next(
             new ErrorHandler(`Role ${req.user.role} is not allowed to access this 
             resource`, 403))
@@ -32,4 +31,3 @@ const authorizeRoles = (role) => {
     }
 
 };
-module.exports = { authorizeRoles, isAuthenticatedUser };
