@@ -1,4 +1,4 @@
-# shopit
+# ShopIT
 Online shop project
 
 >First major project for my job.
